@@ -1,6 +1,6 @@
 // import needed modules
 
-import { add } from './utils';
+import { add } from './utils.js';
 
 // define and grab DOM elements
 const addInput1 = document.getElementById('add-input-1');
@@ -12,7 +12,6 @@ addButton.addEventListener('click', () => {
     const num1 = Number(addInput1.value);
     const num2 = Number(addInput2.value);
     addResult.textContent = add(num1, num2);
-    
 });
 
 
